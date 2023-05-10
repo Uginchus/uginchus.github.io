@@ -1,0 +1,227 @@
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background: #f6f6fa;
+
+  font-family: "Kalam", cursive;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1100px;
+  margin: auto;
+}
+
+.main-content {
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+
+.my-profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 8px;
+}
+
+.about-me {
+  padding-bottom: 40px;
+}
+
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  padding-bottom: 8px;
+}
+
+.my-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects {
+  margin-bottom: 34px;
+}
+
+.project-items-block {
+  list-style: decimal;
+  padding-left: 20px;
+  line-height: 24px;
+}
+
+.work-experiance {
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #faa936;
+  padding-bottom: 40px;
+}
+
+.contacts {
+  margin-bottom: 34px;
+}
+
+.contact-items-block {
+  line-height: 24px;
+}
+
+.hard-skills {
+  margin-bottom: 40px;
+}
+
+.soft-skills {
+  margin-bottom: 40px;
+}
+
+.sidebar-content-block {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+}
+
+.skills-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Jobs and Education */
+.job-cont {
+  padding-bottom: 20px;
+}
+
+.job-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.job-exp-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.job-timeline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  padding-bottom: 8px;
+}
+
+/* Links */
+a:link {
+  color: rgb(0, 90, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 90, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Media */
+@media screen and (max-width: 1270px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    padding-left: 40px;
+  }
+
+  img {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 0px;
+  }
+
+  .sidebar-content-block {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main-content {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0;
+  }
+
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    padding-bottom: 20px;
+    width: 300px;
+  }
+
+  .main-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+div {
+  font-family: "Ubuntu", sans-serif;
+}
