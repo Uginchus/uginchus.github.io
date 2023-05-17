@@ -4,7 +4,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 
-  background: #f6f6fa;
+  background: rgb(25, 23, 23);
 
   font-family: "Kalam", cursive;
 }
@@ -16,7 +16,9 @@ body {
   margin: auto;
 }
 
+/* Main content */
 .main-content {
+  color: aliceblue;
   padding-left: 80px;
   padding-right: 40px;
   padding-bottom: 80px;
@@ -47,7 +49,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 
 .projects {
@@ -84,6 +85,7 @@ body {
 
 .contact-items-block {
   line-height: 24px;
+  text-decoration-color: rgb(25, 23, 23);
 }
 
 .hard-skills {
@@ -99,6 +101,11 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 0px;
+}
+
+.skills-item-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .skills-item {
@@ -140,20 +147,39 @@ body {
   padding-bottom: 8px;
 }
 
-/* Links */
+/* Common Links */
 a:link {
-  color: rgb(0, 90, 0);
+  color: #faa936;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(0, 90, 0);
+  color: #faa936;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Sidebar Links */
+a.sidebar-link:link {
+  color: rgb(47, 47, 47);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.sidebar-link:visited {
+  color: rgb(47, 47, 47);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.sidebar-link:hover {
   color: blue;
   background-color: transparent;
   text-decoration: underline;
