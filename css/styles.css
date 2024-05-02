@@ -161,7 +161,7 @@ a:visited {
 }
 
 a:hover {
-  color: blue;
+  color: rgb(163, 163, 255);
   background-color: transparent;
   text-decoration: underline;
 }
@@ -180,7 +180,7 @@ a.sidebar-link:visited {
 }
 
 a.sidebar-link:hover {
-  color: blue;
+  color: rgb(163, 163, 255);
   background-color: transparent;
   text-decoration: underline;
 }
