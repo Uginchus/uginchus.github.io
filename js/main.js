@@ -1,3 +1,5 @@
+startSetup();
+
 function changeLocalization() {
     var checkBox = document.getElementById("checkbox-localize");
     var textsEN = document.getElementsByClassName("text-EN");
@@ -17,4 +19,16 @@ function changeLocalization() {
             textsUA[i].style.display = "block"
         }
     }
+}
+
+function startSetup() {
+    var textsEN = document.getElementsByClassName("text-EN");
+    var textsUA = document.getElementsByClassName("text-UA");
+
+    for(var i = 0; i < textsEN.length; i++) {
+            textsEN[i].style.display = "none"
+        }
+        for(var i = 0; i < textsUA.length; i++) {
+            textsUA[i].style.display = "block"
+        }
 }

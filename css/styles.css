@@ -351,12 +351,3 @@ a.sidebar-link:hover {
 div {
   font-family: "Ubuntu", sans-serif;
 }
-
-/* Localization Style Logic */
-.text {
-  display: none;
-}
-
-.text-UA {
-  display: block;
-}
